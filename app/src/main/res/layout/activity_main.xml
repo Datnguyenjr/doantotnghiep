@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B6C9ED"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- TITLE -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SMART FARM AI"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="16dp"
+            android:background="@drawable/mode_card"
+            android:elevation="10dp"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- MODE -->
+        <TextView
+            android:id="@+id/txtMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MODE: AUTO"
+            android:textColor="#F41403"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- TEMP CARD (RED) -->
+        <TextView
+            android:id="@+id/txtTemp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="🌡 TEMP\n-- °C"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/temp_card"
+            android:layout_marginBottom="15dp"
+            android:elevation="12dp"/>
+
+        <!-- HUM CARD (BLUE) -->
+        <TextView
+            android:id="@+id/txtHum"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="💧 HUMIDITY\n-- %"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/hum_card"
+            android:layout_marginBottom="15dp"
+            android:elevation="12dp"/>
+
+        <!-- LUX CARD (YELLOW) -->
+        <TextView
+            android:id="@+id/txtLux"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="💡 LIGHT\n--"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/lux_card"
+            android:layout_marginBottom="15dp"
+            android:elevation="12dp"/>
+
+        <!-- BUTTONS -->
+        <Button
+            android:id="@+id/btnAuto"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#22C55E"
+            android:layout_gravity="center"
+            android:text="AUTO MODE"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnManual"
+            android:layout_width="162dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:backgroundTint="#3B82F6"
+            android:layout_gravity="center"
+            android:text="MANUAL MODE"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>

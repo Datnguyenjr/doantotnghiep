@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "130414331785",
+    "firebase_url": "https://appgiamsat-dd86a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "appgiamsat-dd86a",
+    "storage_bucket": "appgiamsat-dd86a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130414331785:android:ea7b4ba19e44ab8822c358",
+        "android_client_info": {
+          "package_name": "com.example.appgiamsat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIWkUi-W4UOO-xTYtFQgZb8SougKBBnEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

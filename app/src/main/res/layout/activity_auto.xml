@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B1220"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- TITLE -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AUTO SETTINGS"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:padding="14dp"
+            android:background="#1E293B"
+            android:elevation="10dp"
+            android:layout_marginBottom="18dp"/>
+
+        <!-- TEMP -->
+        <EditText
+            android:id="@+id/edtTemp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="🌡 Temp threshold (old: --)"
+            android:textColorHint="#A1A1AA"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:background="@drawable/input_card"
+            android:inputType="number"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- LUX -->
+        <EditText
+            android:id="@+id/edtLux"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="💡 Lux threshold (old: --)"
+            android:textColorHint="#A1A1AA"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:background="@drawable/input_card"
+            android:inputType="number"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- FEED TIME -->
+        <EditText
+            android:id="@+id/edtFeed"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="🍽 Feed hour (old: --)"
+            android:textColorHint="#A1A1AA"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:background="@drawable/input_card"
+            android:inputType="number"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- SAVE BUTTON -->
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="SAVE SETTINGS"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#22C55E"
+            android:elevation="8dp"/>
+
+    </LinearLayout>
+</ScrollView>
